@@ -19,10 +19,7 @@
 }
 
 .contacts__wrapper {
-    background-image: url('../img/bg2.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: var(--first-brand-color);
 }
 .contacts {
     padding: 17rem 0;
@@ -80,5 +77,8 @@
     }
     .contacts__item-link:hover .text::after {
         width: 100%;
+    }
+    .contacts {
+        padding: 17rem;
     }
 }
